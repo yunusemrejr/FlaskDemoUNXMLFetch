@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+  <TITLE>YUNUS'S LITTLE XML FETCH </TITLE>
+<style>
+    body{
+        font-family:arial;
+        color:green;
+        background-color:black;
+    }
+</style>
+    </head>
+    <body>
+
+<h1>Latest</h1>
+<ul>
+
+
+{% for title in data %}
+<li>{{title}}</li>
+{% endfor %}
+
+
+</ul>
+
+
+    </body>
+
+  </html>
